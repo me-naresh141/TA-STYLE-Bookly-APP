@@ -166,7 +166,10 @@ ul {
   border-radius: 1px;
   padding: 0.1rem 0;
 }
-
+.list:hover {
+  border: 1px solid rgb(0, 169, 166);
+  cursor: pointer;
+}
 .image {
   width: 2.5rem;
   height: 3.3rem;
@@ -189,4 +192,9 @@ ul {
   text-transform: capitalize;
   border-radius: 0.05rem;
   padding: 0.07rem 0.2rem;
+}
+.btn:hover {
+  background-color: aqua;
+  color: rgb(225, 22, 225);
+  cursor: pointer;
 }
