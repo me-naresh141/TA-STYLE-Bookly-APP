@@ -133,8 +133,8 @@ table {
 /* general-style */
 
 .container {
-  max-width: 250px;
-  width: 100%;
+  max-width: 1400px;
+  width: 80%;
   margin: 0 auto;
 }
 /* header */
