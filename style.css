@@ -133,7 +133,7 @@ table {
 /* general-style */
 
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   width: 80%;
   margin: 0 auto;
 }
@@ -142,28 +142,28 @@ h1 {
   text-align: center;
   background-color: rgb(55, 126, 128);
   color: yellow;
-  font-size: 13px;
-  padding: 2px 0;
+  font-size: 2rem;
+  padding: 16px 0;
 }
 /* main */
 
 ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 1rem;
   background-color: rgb(253, 245, 232);
-  padding: 0.5rem 0rem 0.5rem 1.4rem;
+  padding: 1rem 0rem 1rem 6rem;
   justify-content: flex-start;
 }
 .list {
-  width: 4rem;
-  height: 5rem;
+  width: 30%;
+  height: 23rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background-color: white;
-  border-radius: 1px;
+  border-radius: 3px;
   padding: 0.1rem 0;
 }
 .list:hover {
@@ -171,27 +171,27 @@ ul {
   cursor: pointer;
 }
 .image {
-  width: 2.5rem;
-  height: 3.3rem;
+  width: 10rem;
+  height: 13rem;
   object-fit: cover;
   border: 0.1px solid rgba(159, 157, 157, 0.218);
 }
 .title {
-  font-size: 0.25rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .authorName {
-  font-size: 0.2rem;
+  font-size: 1rem;
 }
 .btn {
-  font-size: 0.2rem;
+  font-size: 1rem;
   border: none;
   outline: none;
   background-color: rgb(55, 126, 127);
   color: white;
   text-transform: capitalize;
-  border-radius: 0.05rem;
-  padding: 0.07rem 0.2rem;
+  border-radius: 3px;
+  padding: 0.4rem 1rem;
 }
 .btn:hover {
   background-color: aqua;
